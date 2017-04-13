@@ -1,0 +1,21 @@
+@import "variables";
+body{
+	font-family: Tahoma;
+}
+.grid-js{
+	td{
+		border: 1px solid $bordColor;
+		padding: 10px;
+	}
+	tbody{
+		 tr:nth-child(even) {
+			background-color:#EDEDED; /* Цвет фона */
+		}
+		select{
+			width: 100%;
+		}
+		input{
+			border: 1px solid $bordColor;
+		}
+	}
+}
