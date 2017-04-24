@@ -1,3 +1,9 @@
+var html='<table><tr>';
+for (var i = 0; i < columns.length; i++) {
+   html+='<td>'+columns[i]+'</td>';
+};
+html+='</tr></table>';
+
 var columns = [
     {
         key: 'id',
